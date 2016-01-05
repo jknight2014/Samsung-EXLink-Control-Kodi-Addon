@@ -3,8 +3,10 @@
 <addon id="script.samsung.control" name="Samsung Seral Control" version="1.0.0" provider-name="jknight">
     <requires>
                 <import addon="xbmc.python" version="2.14.0"/>
-                <import addon="script.module.pyserial" version="2.1.0"/>
         </requires>
+		<extension point="xbmc.python.module"
+			library="pyserial" />
+		<extension point="xbmc.addon.metadata">
         <extension point="xbmc.python.script" library="addon.py">
                 <provides>executable</provides>
         </extension>

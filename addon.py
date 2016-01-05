@@ -28,4 +28,3 @@ while loop:
                 count = count +1
                 time.sleep(1)
         print "finished"
-
